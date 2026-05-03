@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+             background-image: url(bg.jpeg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        }
+        h1 {
+             color: rgb(241, 174, 196);
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        .wrapper {
+            line-height: 1.5;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        .Hasil {
+            display: none;
+            color: red;
+        }
+        .Hasil:has(i) {
+            color: green;
+        }
+        .pilihan:checked ~ .Hasil {
+            display: inline-block;
+        }
+        .Quiz {
+            background: rgba(250, 252, 250, 0.998);
+            border: 1px solid #fa04dd;
+            padding: 1rem;
+            border-radius: 1rem;
+            margin: .5rem;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pilihan Ganda</title>
+</head>
+<body>
+    <div class="wrapper">
+        <H1 style="text-align: center;">QUIZ PILIHAN GANDA HAK DAN KEWAJIBAN WARGA NEGARA INDONESIA</H1>
+        <div class="Quiz">
+         <div class="Pertanyaan">1.Berikut ini termasuk kewajiban warga negara yang tercantum dalam UUD
+NRI Tahun 1945 adalah...</div>
+         <ul class="Jawaban">
+            <li> <input type="radio" class="pilihan" name="soal 1">mendapat pendidikan dan pengajaran <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 1">mengikuti berbagai upaya pembelaan negara <span class="Hasil">Benar <i></i></span></li>
+            <li> <input type="radio" class="pilihan" name="soal 1">mendapat penghidupan yang layak <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 1">menjalankan ibadah sesuai dengan keyakinan <span class="Hasil">Salah</span></li>
+         </ul>
+     </div>    
+    </div>
+    <br>
+    <div class="Quiz">
+         <div class="Pertanyaan">2.Pelaksanaan hak dan kewajiban harus seimbang karena...</div>
+         <ul class="Jawaban">
+            <li> <input type="radio" class="pilihan" name="soal 2">hak dan kewajiban bersamaan dituangkan dalam aturan <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 2">tidak ada hak yang mungkin ada, tanpa kewajiban <span class="Hasil">Benar <i></i></span></li>
+            <li> <input type="radio" class="pilihan" name="soal 2">hak menjamin kelangsungan hidup, sedangkan kewajiban hanya
+dilakukan jika perlu <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 2">hak dan kewajiban dilaksanakan sebagai aturan dari pemerintah <span class="Hasil">Salah</span></li>
+         </ul>
+     </div>    
+     <br>
+      <div class="Quiz">
+         <div class="Pertanyaan">3.Contoh keseimbangan pelaksanaan hak dan kewajiban dalam bidang
+pendidikan adalah...</div>
+         <ul class="Jawaban">
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 3">mendapatkan layanan pendidikan yang sama di sekolah dan belajar
+dengan sungguh-sungguh <span class="Hasil">Benar <i></i></span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 3">mendapatkan perlakuan yang sama di hadapan hukum dan menaati
+setiap perundang-undangan yang berlaku <span class="Hasil">Salah</span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 3">mendapatkan kesejahteraan, kesempatan dalam bekerja dan
+berusaha, serta mencintai produk dalam negeri <span class="Hasil">Salah</span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 3">mendapatkan jaminan keamanan dan kenyamanan, serta
+melaksanakan upaya bela negara sesuai dengan perannya sebagai
+peserta didik <span class="Hasil">Salah</span></li>
+         </ul>
+     </div>    
+     <br>
+     <div class="Quiz">
+         <div class="Pertanyaan">4.Contoh keseimbangan pelaksanaan hak dan kewajiban dalam bidang
+ekonomi adalah...</div>
+         <ul class="Jawaban">
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 4">mendapatkan layanan pendidikan yang sama di sekolah dan belajar
+dengan sungguh-sungguh <span class="Hasil">Salah</span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 4">mendapatkan perlakuan yang sama di hadapan hukum dan menaati
+setiap perundang-undangan yang berlaku <span class="Hasil">Salah </span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 4">mendapatkan kesejahteraan, kesempatan dalam bekerja dan
+berusaha, serta mencintai produk dalam negeri <span class="Hasil">Benar <i></i></span></li>
+            <li style="text-align: justify;"> <input type="radio" class="pilihan" name="soal 4">mendapatkan jaminan keamanan dan kenyamanan, serta
+melaksanakan upaya bela negara sesuai dengan perannya sebagai
+peserta didik <span class="Hasil">Salah</span></li>
+         </ul>
+     </div>    
+     <br>
+     <div class="Quiz">
+         <div class="Pertanyaan">5.Contoh upaya kamu dalam menghormati dan menghargai hak-hak orang
+lain adalah...</div>
+         <ul class="Jawaban">
+            <li> <input type="radio" class="pilihan" name="soal 5">mengemukakan pendapat saat diskusi di kelas, tanpa menghiraukan
+pendapat teman <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 5">mendengarkan pendapat teman dalam berdiskusi dan menerima
+masukan dari teman  <span class="Hasil">Benar <i></i></span></li>
+            <li> <input type="radio" class="pilihan" name="soal 5">mengerjakan tugas sekolah secara individu dan tidak memberi
+bantuan kepada teman <span class="Hasil">Salah</span></li>
+            <li> <input type="radio" class="pilihan" name="soal 5">mmelaksanakan piket sekolah setiap hari karena tugas dari guru <span class="Hasil">Salah</span></li>
+         </ul>
+     </div>  
+     <br>  
+     <!-- Comment Untuk Materi ini -->
+<p>
+    <small>
+    &copy; Presented by Aisyah Rendita Putri. Universitas Negeri Jakarta 2026
+    </small>
+</p>
+</body>
+</html>
